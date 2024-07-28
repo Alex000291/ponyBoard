@@ -1,0 +1,24 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  font-size: 3rem;
+  background-color: #bdbe61f8;
+}
+
+
+.board{
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+
+  font-size: large;
+  gap: 100px;
+  border: 1px solid black;
+}
+.board a {
+  text-decoration: none;
+}
+
+.board-header{
+  margin: 20px 0;
+  font-size: 2rem;
+}
